@@ -1,20 +1,16 @@
-/* @font-face {
+@font-face {
     font-family: Sahel;
     src: url('Sahel.eot');
     src: url('Sahel.eot?#iefix') format('embedded-opentype'),
          url('Sahel.woff2') format('woff2'),
          url('Sahel.woff') format('woff'),
          url('Sahel.ttf') format('truetype');
-  } */
+  }
 /*------------------------------------------------------------------
     IMPORT FONTS
 -------------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
-@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700');
-
-
-/* @font-face { font-family: "Sahel"; src: url('https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/Sahel.woff2')  } */
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700'); */
 
 /*
 
@@ -45,7 +41,7 @@
  body {
      color: #666666;
      font-size: 15px;
-     font-family: sans-serif;
+     font-family: Sahel,'Poppins','Dosis';
      line-height: 1.80857;
 }
  a {
@@ -242,7 +238,7 @@
      color: #FFFFFF;
      font-size: 13px;
      padding: 2px 15px;
-     font-family: sans-serif;
+     font-family: Sahel,sans-serif;
 }
  .offer-box li {
      font-weight: 600;
@@ -609,7 +605,7 @@
     }
 }
  .arrow::before{
-     font-family: sans-serif;
+     font-family: Sahel,sans-serif;
      content: "\f0d7";
      margin-left: 5px;
      margin-top: 2px;
@@ -801,7 +797,7 @@
      opacity: 0.5;
 }
  .cover-slides h1{
-     font-family:  sans-serif;
+     font-family:  Sahel,sans-serif;
      font-weight: 500;
      font-size: 64px;
      color: #fff;
@@ -975,7 +971,7 @@
 }
  .why-text h5{
      font-size: 18px;
-     font-family:  sans-serif;
+     font-family:  Sahel,sans-serif;
      padding: 4px;
 	 display: inline-block;
 	 background: #ef394e;
@@ -1438,7 +1434,7 @@
      -ms-transition: all .3s ease-in-out;
 }
  .footer-link ul li a::before {
-     font-family: sans-serif;
+     font-family: Sahel,sans-serif;
      content: "\f105";
      position: absolute;
      left: 5px;
@@ -1842,7 +1838,7 @@
      transition: top .2s,-webkit-transform .2s;
      transition: transform .2s,top .2s;
      transition: transform .2s,top .2s,-webkit-transform .2s;
-     font-family: sans-serif;
+     font-family: Sahel,sans-serif;
      content: "\f105";
 }
  .list-group-tree .list-group-collapse .list-group {
